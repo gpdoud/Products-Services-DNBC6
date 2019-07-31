@@ -13,7 +13,11 @@ namespace OopProductsServicesProject {
             var s247 = new Service(13, "24x7 Support", 100, 750);
 
             var sales = new SalesItem[] {
-                pBW, pAW, pSW, sBS, sPS, s247
+                pBW, pAW, pSW, sBS, sPS, s247,
+
+                new Membership(21, "Basic Membership", 100, 1500),
+                new Membership(22, "Advanced Membership", 200, 700),
+                new Membership(23, "Primere Membership", 400, 300)
             };
 
             var total = 0M;
